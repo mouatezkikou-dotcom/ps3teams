@@ -1,139 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PS3 Game Downloads</title>
-<style>
+  <meta charset="UTF-8">
+  <title>PS3 Games Download</title>
+  <style>
     body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        text-align: center;
+      background: url('https://i.imgur.com/NfQvC0k.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
     header {
-        background: rgba(0, 0, 0, 0.7);
-        padding: 20px;
-        font-size: 2em;
-        font-weight: bold;
-        letter-spacing: 2px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.8);
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
     }
-    h2 {
-        margin-top: 40px;
-        font-size: 1.8em;
-        color: #00ffff;
-    }
-    .game-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
+    .container {
+      margin: 30px auto;
+      max-width: 800px;
     }
     .game {
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 80%;
-        max-width: 500px;
-        margin: 15px 0;
-        padding: 20px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.4);
-        transition: transform 0.3s;
+      background: rgba(0,0,0,0.85);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.7);
     }
-    .game:hover { transform: scale(1.05); }
-    .game a {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10px 20px;
-        background: #00ffff;
-        color: #000;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 10px;
-        transition: background 0.3s, color 0.3s;
+    .game h2 {
+      margin: 0 0 10px;
     }
-    .game a:hover { background: #00aabb; color: #fff; }
+    .links a {
+      display: block;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+      background: #00ffff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .links a:hover {
+      background: #00aabb;
+      color: #fff;
+    }
     footer {
-        margin-top: 50px;
-        padding: 20px;
-        font-size: 0.9em;
-        background: rgba(0, 0, 0, 0.6);
-        color: #aaa;
+      margin: 40px 0 20px;
+      font-size: 14px;
+      color: #aaa;
+      background: rgba(0,0,0,0.7);
+      padding: 10px;
+      border-radius: 8px;
+      display: inline-block;
     }
-    section { margin: 40px 0; }
-    input, textarea, button {
-        padding: 10px;
-        margin: 5px 0;
-        border-radius: 8px;
-        border: none;
-        width: 80%;
-        max-width: 400px;
-    }
-    button {
-        background: #00ffff;
-        color: #000;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background 0.3s, color 0.3s;
-    }
-    button:hover { background: #00aabb; color: #fff; }
-</style>
+  </style>
 </head>
 <body>
+  <header>PS3 Games Download</header>
 
-<header>PS3 Game Downloads</header>
+  <div class="container">
 
-<section>
-<h2>Welcome, zizou_dz24!</h2>
-<p>Here you can download the best PS3 games directly from MediaFire.</p>
-</section>
-
-<h2>Available Games</h2>
-<div class="game-list">
+    <!-- Minecraft Tricky -->
     <div class="game">
-        <h3>Minecraft Tricky Trials Edition</h3>
-        <a href="https://www.mediafire.com/file/v5uawyr9t55bmkj/Minecraft_Tricky_Trials_Edition_TMC_v1.1.pkg/file" target="_blank">Download Now</a>
+      <h2>Minecraft Tricky Trials Edition</h2>
+      <div class="links">
+        <a href="https://www.mediafire.com/file/v5uawyr9t55bmkj/Minecraft_Tricky_Trials_Edition_TMC_v1.1.pkg/file" target="_blank">Download Link</a>
+      </div>
     </div>
+
+    <!-- Minecraft Shadow -->
     <div class="game">
-        <h3>Minecraft Shadow Edition</h3>
-        <a href="https://www.mediafire.com/file/hb2geswzjoo78f7/Minecraft_Shadow_Edition_By_TzFr4n_-.pkg/file" target="_blank">Download Now</a>
+      <h2>Minecraft Shadow Edition</h2>
+      <div class="links">
+        <a href="https://www.mediafire.com/file/hb2geswzjoo78f7/Minecraft_Shadow_Edition_By_TzFr4n_-.pkg/file" target="_blank">Download Link</a>
+      </div>
     </div>
+
+    <!-- Rocket League -->
     <div class="game">
-        <h3>Rocket League</h3>
-        <a href="https://www.mediafire.com/file/3xliuqqeer86ugu/Rocket+League.pkg/file" target="_blank">Download Now</a>
+      <h2>Rocket League</h2>
+      <div class="links">
+        <a href="https://www.mediafire.com/file/3xliuqqeer86ugu/Rocket+League.pkg/file" target="_blank">Download Link</a>
+      </div>
     </div>
-</div>
 
-<section>
-<h2>My Account</h2>
-<p>Username: <strong>zizou_dz24</strong></p>
-<ul style="list-style:none; padding:0;">
-    <li>Minecraft Tricky Trials Edition</li>
-    <li>Minecraft Shadow Edition</li>
-    <li>Rocket League</li>
-</ul>
-</section>
+    <!-- Blur -->
+    <div class="game">
+      <h2>Blur (BLES00759)</h2>
+      <p>Game split into 4 parts, download all to install:</p>
+      <div class="links">
+        <a href="https://www.mediafire.com/file/kt3l4roeqdqdqrk/Blur_%255BBLES00759%255D-%255BGO%255D_Part1.pkg/file" target="_blank">Part 1</a>
+        <a href="https://www.mediafire.com/file/2bqqfvcaoyhs5nb/Blur_%255BBLES00759%255D-%255BGO%255D_Part2.pkg/file" target="_blank">Part 2</a>
+        <a href="https://www.mediafire.com/file/2jchg5k82sai9tq/Blur_%255BBLES00759%255D-%255BGO%255D_Part3.pkg/file" target="_blank">Part 3</a>
+        <a href="https://www.mediafire.com/file/tt8d6tc3zal6r6j/Blur_%255BBLES00759%255D-%255BGO%255D_Part4.pkg/file" target="_blank">Part 4</a>
+      </div>
+    </div>
 
-<section>
-<h2>Contact Me</h2>
-<p>Email: <a href="mailto:mouatezkikou@gmai.com" style="color:#00ffff;">mouatezkikou@gmai.com</a></p>
-<p>Discord: zizou_dz24#1234</p>
-<p>Telegram: @zizou_dz24</p>
+  </div>
 
-<!-- Optional: HTML form if you have PHP support -->
-<form action="contact.php" method="post">
-<input type="text" name="name" placeholder="Your Name" required><br>
-<input type="email" name="email" placeholder="Your Email" required><br>
-<textarea name="message" placeholder="Your Message" required></textarea><br>
-<button type="submit">Send Message</button>
-</form>
-</section>
-
-<footer>
-© 2025 PS3 Downloads | All rights reserved
-</footer>
-
+  <footer>
+    <p>Created by zizou_dz24 | Contact: mouatezkikou@gmai.com</p>
+  </footer>
 </body>
 </html>
