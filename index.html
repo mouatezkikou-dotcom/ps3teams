@@ -5,7 +5,7 @@
   <title>PS3 Games Download</title>
   <style>
     body {
-      background: #0d0d0d;
+      background: #111; /* خلفية سوداء بسيطة */
       color: #fff;
       font-family: Arial, sans-serif;
       margin: 0;
@@ -13,12 +13,11 @@
       text-align: center;
     }
     header {
-      background: #111;
+      background: #222;
       padding: 20px;
       font-size: 26px;
       font-weight: bold;
       color: #00aaff;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
     }
     .game-list {
       display: flex;
@@ -27,17 +26,19 @@
       margin: 20px;
     }
     .game {
-      background: #1a1a1a;
+      background: rgba(50,50,50,0.8);
+      backdrop-filter: blur(8px);
       width: 90%;
       max-width: 700px;
-      margin: 10px 0;
+      margin: 15px 0;
       padding: 15px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+      border-radius: 15px;
+      text-align: left;
     }
     .game h2 {
       margin: 0 0 10px;
       color: #00ffcc;
+      text-align: center;
     }
     .game a {
       display: block;
@@ -48,14 +49,32 @@
       padding: 10px;
       border-radius: 8px;
       transition: 0.3s;
+      text-align: center;
     }
     .game a:hover {
       background: #0088cc;
+    }
+    .form-box {
+      margin-top: 15px;
+      padding: 10px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+    }
+    .form-box input {
+      width: 45%;
+      padding: 8px;
+      margin: 5px;
+      border: none;
+      border-radius: 6px;
     }
     footer {
       margin: 30px 0;
       font-size: 14px;
       color: #aaa;
+      padding: 10px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
@@ -64,6 +83,20 @@
 
   <div class="game-list">
 
+    <!-- Blur -->
+    <div class="game">
+      <h2>Blur</h2>
+      <a href="https://www.mediafire.com/file/kt3l4roeqdqdqrk/Blur_%255BBLES00759%255D-%255BGO%255D_Part1.pkg/file">Part 1</a>
+      <a href="https://www.mediafire.com/file/2bqqfvcaoyhs5nb/Blur_%255BBLES00759%255D-%255BGO%255D_Part2.pkg/file">Part 2</a>
+      <a href="https://www.mediafire.com/file/2jchg5k82sai9tq/Blur_%255BBLES00759%255D-%255BGO%255D_Part3.pkg/file">Part 3</a>
+      <a href="https://www.mediafire.com/file/tt8d6tc3zal6r6j/Blur_%255BBLES00759%255D-%255BGO%255D_Part4.pkg/file">Part 4</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- Call of Duty Black Ops 3 -->
     <div class="game">
       <h2>Call of Duty Black Ops 3</h2>
       <a href="https://www.mediafire.com/file/umsj69dhki2cvdn/01-CALL_OF_DUTY_BLACK_OPS_3_BLUS31527_Juego_Parte1.pkg/file">Part 1</a>
@@ -73,48 +106,83 @@
       <a href="https://www.mediafire.com/file/1oxo0gr736gba6m/05-CALL_OF_DUTY_BLACK_OPS_3_BLUS31527_DLC_Awakening.pkg/file">DLC Awakening</a>
       <a href="https://www.mediafire.com/file/0t6kxyce7tffuu3/06-CALL_OF_DUTY_BLACK_OPS_3_BLUS31527_DLC_The_Giant.pkg/file">DLC The Giant</a>
       <a href="https://www.mediafire.com/file/8smvr0uz4nf6f73/07-CALL_OF_DUTY_BLACK_OPS_3_BLUS31527_Fix_All_DLC.pkg/file">Fix All DLC</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
     </div>
 
-    <div class="game">
-      <h2>Call of Duty Black Ops 2 + DLC</h2>
-      <a href="https://www.mediafire.com/file/piff4ievypopl48">BO2 DLC Pack</a>
-    </div>
-
-    <div class="game">
-      <h2>Call of Duty Black Ops 1</h2>
-      <a href="https://www.mediafire.com/file/fc9wc3emgzvm1to/لعبه_كود_7__سوني_3.rar/file">Game</a>
-      <a href="https://www.mediafire.com/file/3htcfdt9lxawssl/مابات+كود+7+زومبي+و+حرب+.rar/file">DLC Zombie + War</a>
-    </div>
-
-    <div class="game">
-      <h2>Counter-Strike GO</h2>
-      <a href="https://www.mediafire.com/file/2etqipxaxuvbxte/Counter_Strike_Global_Offensive_%5BNPUB30589%5D-%5BGO%5D_Part1.pkg/file">Download</a>
-    </div>
-
-    <div class="game">
-      <h2>Kagura V3</h2>
-      <a href="https://www.mediafire.com/file/sefnyr27zn7ykr3/Kagura_V3_NPEB_By_AzeY.pkg/file">Download</a>
-    </div>
-
-    <div class="game">
-      <h2>Kagura V4</h2>
-      <a href="https://www.mediafire.com/file/6u6v08rvb5c2k3m/Kagura_V4_NPUB_By_AzeY.pkg/file">Download</a>
-    </div>
-
+    <!-- Minecraft Shadow Edition -->
     <div class="game">
       <h2>Minecraft Shadow Edition</h2>
       <a href="https://www.mediafire.com/file/hb2geswzjoo78f7/Minecraft_Shadow_Edition_By_TzFr4n_-.pkg/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
     </div>
 
+    <!-- Minecraft Tricky Trials Edition -->
     <div class="game">
       <h2>Minecraft Tricky Trials Edition</h2>
       <a href="https://www.mediafire.com/file/v5uawyr9t55bmkj/Minecraft_Tricky_Trials_Edition_TMC_v1.1.pkg/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- Kagura V3 -->
+    <div class="game">
+      <h2>Kagura V3</h2>
+      <a href="https://www.mediafire.com/file/sefnyr27zn7ykr3/Kagura_V3_NPEB_By_AzeY.pkg/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- Kagura V4 -->
+    <div class="game">
+      <h2>Kagura V4</h2>
+      <a href="https://www.mediafire.com/file/6u6v08rvb5c2k3m/Kagura_V4_NPUB_By_AzeY.pkg/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- COD7 DLC -->
+    <div class="game">
+      <h2>Call of Duty 7 DLC</h2>
+      <a href="https://www.mediafire.com/file/fc9wc3emgzvm1to/%D9%84%D8%B9%D8%A8%D9%87_%D9%83%D9%88%D8%AF_7__%D8%B3%D9%88%D9%86%D9%8A_3.rar/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- COD9 DLC -->
+    <div class="game">
+      <h2>Call of Duty 9 DLC</h2>
+      <a href="https://www.mediafire.com/file/piff4ievypopl48">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- Rocket League -->
+    <div class="game">
+      <h2>Rocket League</h2>
+      <a href="https://www.mediafire.com/file/3xliuqqeer86ugu/Rocket+League.pkg/file">Download</a>
+      <div class="form-box">
+        <input type="text" placeholder="PSN ID">
+        <input type="email" placeholder="Email">
+      </div>
     </div>
 
   </div>
 
   <footer>
-    موقع ألعاب PS3 | جميع الحقوق محفوظة © 2025
-  </footer>
-</body>
-</html>
+    موقع
